@@ -1,2 +1,2 @@
-# LSO-Media.github.io
-leaf stables online Media  Website
+# SkyPaws.github.io
+SkyPaws Studios  Website
