@@ -14,9 +14,7 @@ header {
 
 .projects {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
     padding: 20px;
 }
 
@@ -26,6 +24,15 @@ header {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+    flex: 1 1 30%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 .project:hover {
@@ -38,9 +45,3 @@ footer {
     background-color: #007bff;
     color: #fff;
 }
-.project img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
